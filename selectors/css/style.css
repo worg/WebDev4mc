@@ -1,0 +1,23 @@
+a {
+    background: black;
+    color: white;
+}
+
+.link{
+    color: purple;
+    background: darkgray;
+    text-decoration: none
+}
+
+#enlace{
+    color: black;
+    background: none;
+}
+
+.my-div{
+    color: silver;
+}
+
+.button{
+    color: blue;
+}
