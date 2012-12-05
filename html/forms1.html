@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Título</title>
+        <style>
+        body{
+            background-color: #F9F9F9;
+        }
+        span{
+            min-width: 70px;
+            display: inline-block;
+            text-align: right;
+        }
+        label{
+            margin: 5px;
+            display: block;
+        }
+
+        </style>
+    </head>
+    <body>
+        <header>My custom header</header>
+        <nav>
+            My nav links
+        </nav> 
+        <aside>
+            My sidebar
+        </aside>
+        <section>
+            <h3>Formulario de contacto</h3>
+            <form action="#" method="post">
+                <label for="name">
+                    <span>Nombre</span>
+                    <input name="name" type="text" placeholder="Nombre" required> 
+                </label><br>
+                <label for<="email">
+                    <span>Email</span>
+                    <input name="email" type="email" placeholder="yourname@youremail.com" required> 
+                </label><br>
+                <label for="message" >
+                    <span>Mensaje</span>
+                    <input type="textarea" placeholder="Escribe tu mensaje" required>
+                </label>
+                <input type="submit" value="enviar">
+            </form>
+            <p></p>
+        </section>
+        <footer>A nice footer</footer>
+    </body>
+</html>
