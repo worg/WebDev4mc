@@ -6,9 +6,10 @@
         <style>
         body{
             background-color: #F9F9F9;
+            /*background-image: url('imgs/owl.jpg');*/
         }
         span{
-            min-width: 70px;
+            min-width: 80px;
             display: inline-block;
             text-align: right;
         }
@@ -36,6 +37,26 @@
                 <span>Mensaje</span> 
                 <input type="textarea" name="message">
             </label>
+            <h3>Cajas de verificación</h3>
+            <label>
+                Verificaciòn 1
+                <input type="checkbox" name="check1">
+            </label>    
+            <label>
+                Verificaciòn 2
+                <input type="checkbox" name="check1">
+            </label>
+            <label>
+                <select name="country">
+                    <option value="mx">México</option>
+                    <option value="ag">Angola</option>
+                </select>
+            </label>
+            <h3>Radios</h3> 
+                <input type="radio" value="2" name="radio">Hi</input><br>
+                <input type="radio" value="1" name="radio">there</input><br>
+                <input type="radio" value="0" name="radio">Hi</input><br>
+            <input type="submit" value="Enviar">
         </form>
     </body>
 </html>
