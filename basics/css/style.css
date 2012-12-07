@@ -1,4 +1,47 @@
+body{
+	background: url('../imgs/fondo.gif');
+}
+
 a {
     background: black;
     color: white;
+    position:fixed;
+    left: 0px;
 }
+
+div{
+    width: 48%;
+    position:relative;
+    display: inline-block;
+}
+
+p{
+    width: 48%;
+    display:inline-block
+}
+
+span{
+    width:38%;
+    position:relative;
+    display: inline-block;
+    top:-450px;
+    background: red;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid rgb(125,125,125);
+}
+
+table{
+	width: 50%;
+}
+
+td{
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
+
+h4{
+    width:50%;
+}
+
