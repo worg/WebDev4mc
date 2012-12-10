@@ -20,9 +20,9 @@ div{
 
 .green{
 	height: 50px;
-	background-image: -webkit-linear-gradient(bottom, rgba(0, 200, 125, 0.5) 0%, rgba(0, 200, 125, 0.3) 100%);
-	background-image: -moz-linear-gradient(bottom, rgba(0, 200, 125, 0.5) 0%, rgba(0, 200, 125, 0.3) 100%);
-	background-image: linear-gradient(bottom, rgba(0, 200, 125, 0.5) 0%, rgba(0, 200, 125, 0.3) 100%);
+	background-image: -webkit-ease-in-gradient(bottom, rgba(0, 200, 125, 0.5) 0%, rgba(0, 200, 125, 0.3) 100%);
+	background-image: -moz-ease-in-gradient(bottom, rgba(0, 200, 125, 0.5) 0%, rgba(0, 200, 125, 0.3) 100%);
+	background-image: ease-in-gradient(bottom, rgba(0, 200, 125, 0.5) 0%, rgba(0, 200, 125, 0.3) 100%);
 }
 
 .shadow{
@@ -46,9 +46,9 @@ div{
 
 .query{
     background-color: #ff00ff;
-	-moz-transition: background 1s linear; /* firefox */
-	-webkit-transition: background 1s linear; /* chrome,safari */ 
-    transition: background 1s linear; /* w3c */
+	-moz-transition: background 1s ease-in; /* firefox */
+	-webkit-transition: background 1s ease-in; /* chrome,safari */ 
+    transition: background 1s ease-in; /* w3c */
 }   
 
 @media all and (max-width: 1024px){
